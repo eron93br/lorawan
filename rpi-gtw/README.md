@@ -1,4 +1,8 @@
-Single Channel LoRaWAN Gateway using Raspberry Pi
+Gateway LoRaWAN de unico canal baseado em Raspberry Pi
+
+Baseado na implementacao de [Thomas Telkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
+
+Editado para funcionar com parametros em rede brasileira
 
 ==============================
 This repository contains a proof-of-concept implementation of a single
