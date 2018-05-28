@@ -4,19 +4,6 @@ Baseado na implementacao de [Thomas Telkamp](https://github.com/tftelkamp/single
 
 Editado para funcionar com parametros em rede brasileira
 
-==============================
-This repository contains a proof-of-concept implementation of a single
-channel LoRaWAN gateway.
-
-It has been tested on the Raspberry Pi platform, using a Semtech SX1272
-transceiver (HopeRF RFM92W), and SX1276 (HopeRF RFM95W).
-
-The code is for testing and development purposes only, and is not meant 
-for production usage. 
-
-Part of the source has been copied from the Semtech Packet Forwarder 
-(with permission).
-
 Funcionalidades
 --------
 - listen on configurable frequency and spreading factor
