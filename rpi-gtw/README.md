@@ -26,7 +26,7 @@ Conexões (Pinout)
 ![](./pinout.png)
 
 
-Tutorial Parte 1 - Gateway com RPi
+Tutorial Parte 1 - Configurando o Gateway no RPi
 -------------
 
 ### Material  necessario:
@@ -92,6 +92,15 @@ sudo ./single_chan_pkt_fwd
 Ao executar a linha de comando, aparecerá na tela informações sobre o gateway como, ID, email etc...
 
 ![](./gtw.png)
+
+Tutorial Parte 2 - Configurando o Gateway na The Things Network
+-------------
+1) Crie uma conta na The Things Network
+````
+    Login no site console.thethingsnetwork.org (gratuito!)
+    Selecione 'Gateways' 
+    Selecione + register gateway (Registrar Gateway)
+````
 
 Outros tutoriais 
 -------
