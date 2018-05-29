@@ -21,18 +21,10 @@ Nao suporta
 - FSK modulation
 - downstream messages (tx)
 
-Connections
------------
-SX1276 - Raspberry
+Connections (Pinout)
+===========
+![](./pinout.png)
 
-3.3V   - 3.3V (header pin #1) 
-GND	   - GND (pin #6)
-MISO   - MISO (pin #21)
-MOSI   - MOSI (pin #19)
-SCK    - CLK (pin #23)
-NSS    - GPIO6 (pin #22)
-DIO0   - GPIO7 (pin #7)
-RST    - GPIO0 (pin #11)
 
 Tutorial Parte 1 - Gateway com RPi
 -------------
@@ -57,6 +49,8 @@ sudo apt-get install wiringpi
 ````
 De preferencia, habilite o SPI, VNC, SSH por praticidade via comando 
 ````raspi-config ````
+
+C) Realize as conexoes fisicas do transceiver LoRa com o Raspberry Pi como descritas acima!!
 
 Em seguida vamos comecar a configuracao do gateway, siga o passo a passo!
 
