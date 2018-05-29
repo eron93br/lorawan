@@ -74,7 +74,30 @@ git clone https://github.com/tftelkamp/single_chan_pkt_fwd.git
 
 4) Dentro do Subdiretório, editar o arquivo main.cpp ````sudo nano main.cpp````
 
+![](./config.png)
+
 Editar as partes em vermelho para a configuracao desejada! 
+- Por exemplo, coloque a frequencia para 914.9MHz (914900000), a informacao da localizacao do gateway a partir de sua localizacao exata ou aproximada (latitude e longitude) e altitude do setup do gateway. 
+- Coloque o nome do seu dispositivo (Single Channel Gateway)
+- No campo e-mail coloque o seu e-mail cadastrado na TTN.
+- Nome do seu gateway...
+- Em Server1 o seu IP 
+
+Feita as alterações, salve ````CTRL+X -> Y (Yes) -> Enter````
+
+5) Ainda no Subdiretório, compile o código com terminal e em seguida reinicie o Raspberry Pi. 
+````
+make
+sudo reboot
+````
+6) Inicie e teste seu gateway :)
+````
+cd lorawan_gateway/single_chan_pkt_fwd
+sudo ./single_chan_pkt_fwd
+````
+Ao executar a linha de comando, aparecerá na tela informações sobre o gateway como, ID, email etc...
+
+![](./gtw.png)
 
 
 ### codigo
