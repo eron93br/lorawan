@@ -105,7 +105,7 @@ Tutorial Parte 2 - Configurando o Gateway na The Things Network
 ````
 ![alt tag](https://hackster.imgix.net/uploads/attachments/251146/screen_shot_2017-01-14_at_4_EwIJz0eE4x.png?auto=compress%2Cformat&w=680&h=510&fit=max)
 
-2) Coloque o gateway ID que vc configurou anteriormente (campo Gateway EUI) no inicio da pagina e selecione registrar gateway.
+2) Coloque o gateway ID que vc configurou anteriormente (campo Gateway EUI), passo 6 da Parte 1, no inicio da pagina e selecione registrar gateway.
 
 ![alt tag](https://hackster.imgix.net/uploads/attachments/251147/screen_shot_2017-01-14_at_4_pQP29ElNqh.png?auto=compress%2Cformat&w=680&h=510&fit=max)
 
