@@ -7,21 +7,21 @@ Testes realizados por [Marcus Felipe](https://github.com/mfrr) e [Eronides Neto]
 
 Editado para funcionar com parametros em rede brasileira
 
-Funcionalidades
+Funcionalidades básicas 
 --------
 - listen on configurable frequency and spreading factor
 - SF7 to SF12
 - status updates
 - can forward to two servers
 
-Nao suporta
+Não suportado
 --------
-- PACKET_PUSH_ACK processing
-- SF7BW250 modulation
-- FSK modulation
-- downstream messages (tx)
+- ACK de mensagem
+- Modulação SF7BW250 
+- Modulação FSK
+- Mensagens de downlink (downstream)
 
-Connections (Pinout)
+Conexões (Pinout)
 ===========
 ![](./pinout.png)
 
@@ -93,8 +93,9 @@ Ao executar a linha de comando, aparecerá na tela informações sobre o gateway
 
 ![](./gtw.png)
 
-
-### >> falar do endpoint e conexoes fisicas
+Outros tutoriais 
+-------
+[Tutorial para criação do endpoint LoRaWAN](https://github.com/eron93br/lorawan/tree/master/rpi-gtw/endpoint)
 
 License
 -------
