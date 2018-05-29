@@ -74,13 +74,13 @@ sf_t sf = SF7;
 uint32_t  freq = 914900000; // in Mhz! (868.1)
 
 // Set location
-float lat=-8.0317;
-float lon=-34.9180;
+float lat= SUA LATITUDE AQUI!
+float lon= SUA LANGITUDE AQUI!
 int   alt=0;
 
 /* Informal status fields */
 static char platform[24]    = "Single Channel Gateway";  /* platform definition */
-static char email[40]       = "efsn.cin.ufpe.br";                        /* used for contact email */
+static char email[40]       = "seu e-mail pra contato";                        /* used for contact email */
 static char description[64] = "Recife-Rasp3-Gateway";                        /* used for free form description */
 
 // define servers
