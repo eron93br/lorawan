@@ -65,7 +65,7 @@ Em seguida vamos comecar a configuracao do gateway, siga o passo a passo!
 mkdir lorawan_gateway
 cd lorawan_gateway
 ````
-2) Realize o download SIngle Channel Lora Gateway (Os arquivos ficarão dentrodo diretório criado) 
+2) Realize o [download](https://github.com/tftelkamp/single_chan_pkt_fwd) SIngle Channel Lora Gateway (Os arquivos ficarão dentrodo diretório criado) 
 ````
 git clone https://github.com/tftelkamp/single_chan_pkt_fwd.git 
 ````
