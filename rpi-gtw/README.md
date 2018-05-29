@@ -101,6 +101,16 @@ Tutorial Parte 2 - Configurando o Gateway na The Things Network
     Selecione 'Gateways' 
     Selecione + register gateway (Registrar Gateway)
 ````
+![alt tag](https://hackster.imgix.net/uploads/attachments/251146/screen_shot_2017-01-14_at_4_EwIJz0eE4x.png?auto=compress%2Cformat&w=680&h=510&fit=max)
+
+2) Coloque o gateway ID que vc configurou anteriormente (Gateway EUI field) no inicio da pagina e selecione registrar gateway.
+
+![alt tag](https://hackster.imgix.net/uploads/attachments/251147/screen_shot_2017-01-14_at_4_pQP29ElNqh.png?auto=compress%2Cformat&w=680&h=510&fit=max)
+
+3) Rode o gateway e bote pra quebrar! :)
+````sudo /home/pi/single_chan_pkt_fwd/single_chan_pkt_fwd````
+
+Assim que seu gateway estiver ativado apacera um status na sua pagina, console.thethingsnetwork.org
 
 Outros tutoriais 
 -------
