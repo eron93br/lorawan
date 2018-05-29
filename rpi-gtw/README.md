@@ -21,15 +21,6 @@ Nao suporta
 - FSK modulation
 - downstream messages (tx)
 
-Dependencies
-------------
-- SPI needs to be enabled on the Raspberry Pi (use raspi-config)
-- WiringPi: a GPIO access library written in C for the BCM2835 
-  used in the Raspberry Pi.
-  sudo apt-get install wiringpi
-  see http://wiringpi.com
-- Run packet forwarder as root
-
 Connections
 -----------
 SX1276 - Raspberry
@@ -43,7 +34,7 @@ NSS    - GPIO6 (pin #22)
 DIO0   - GPIO7 (pin #7)
 RST    - GPIO0 (pin #11)
 
-Tutorial
+Tutorial Parte 1 - Gateway com RPi
 -------------
 
 ### Material  necessario:
@@ -52,6 +43,38 @@ Tutorial
 - Registro na TTN (The Things Network)
 - Transceiver LoRa Semtech SX1272 (HopeRF RFM92W), ou SX1276 (HopeRF RFM95W).
 
+A) Atualize o Raspberry Pi para a versao mais recente do S.O.
+````
+sudo apt-get update
+
+sudo apt-get upgrade
+````
+
+B) Instale a biblioteca SPI via a linha de comando do terminal
+
+````
+sudo apt-get install wiringpi
+````
+De preferencia, habilite o SPI, VNC, SSH por praticidade via comando 
+````raspi-config ````
+
+Em seguida vamos comecar a configuracao do gateway, siga o passo a passo!
+
+1) Abra o Terminal e Crie um diretório que ficará os arquivos e bibliotecas do LoRa! Em seguida entre na pasta criada. 
+````
+mkdir lorawan_gateway
+cd lorawan_gateway
+````
+2) Realize o download SIngle Channel Lora Gateway (Os arquivos ficarão dentrodo diretório criado) 
+````
+git clone https://github.com/tftelkamp/single_chan_pkt_fwd.git 
+````
+
+3) Feito Download, abra a subpasta criada conforme passo anterior ````cd single_chan_pkt_fwd````
+
+4) Dentro do Subdiretório, editar o arquivo main.cpp ````sudo nano main.cpp````
+
+Editar as partes em vermelho para a configuracao desejada! 
 
 
 ### codigo
