@@ -43,17 +43,42 @@ NSS    - GPIO6 (pin #22)
 DIO0   - GPIO7 (pin #7)
 RST    - GPIO0 (pin #11)
 
-Configuration
+Tutorial
 -------------
 
-Defaults:
+### Material  necessario:
 
-- LoRa:   SF7 at 868.1 Mhz
-- Server: 54.229.214.112, port 1700  (The Things Network: croft.thethings.girovito.nl)
+- Raspberry Pi 3 (ou 2 conectado a Internet)
+- Registro na TTN (The Things Network)
+- Transceiver LoRa Semtech SX1272 (HopeRF RFM92W), ou SX1276 (HopeRF RFM95W).
 
-Edit source node (main.cpp) to change configuration (look for: "Configure these values!").
 
-Please set location, email and description.
+
+### codigo
+
+````c++
+/*
+  Pisca LED - Blink
+
+  Esse exemplo exibe como piscar o LED presente na placa ou um LED externo ligado ao pino 1 da Franzininho em intervalos de 1 segundo.
+
+*/
+
+const int LED = 1; //pino digital conectado ao LED
+
+void setup(){
+  pinMode(LED,OUTPUT); //pino digital de saída
+}
+
+void loop(){
+  digitalWrite(LED,HIGH);   //acende o led da placa
+  delay(1000);             //aguarda um segundo
+  digitalWrite(LED,LOW);  //apaga o led da placa
+  delay(1000);           //aguarda um segundo
+}
+
+````
+
 
 License
 -------
