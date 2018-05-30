@@ -4,7 +4,7 @@
 
 # Tutoriais 
 
-- [Raspberry Pi](https://github.com/eron93br/lorawan/tree/master/rpi-gtw)
+- [Gateway LoRaWAN com Raspberry Pi](https://github.com/eron93br/lorawan/tree/master/rpi-gtw)
 ![alt tag](https://sourceout.s3-us-west-1.amazonaws.com/uploads/service_image/image/45089/small_ras_pi_logo_for_fiverr.jpg)
 
 # LoRaWAN Recife community
