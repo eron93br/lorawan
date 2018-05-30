@@ -2,6 +2,10 @@
 
 ![alt tag](https://github.com/eron93br/lorawan/blob/master/rpi-gtw/cobertura-lorawan-brasil.png)
 
+# LoRaWAN Recife community
+
+soon.... em breve.....
+Contato eron93@gmail.com 
 
 # Referencias LoRaWAN
 
