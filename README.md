@@ -11,8 +11,9 @@
 
 [TTN Recife Community\(https://www.thethingsnetwork.org/community/recife/)
 
+![](./ttn-recife.png)
 soon.... em breve.....
-![](./recife-lorawan.png)
+
 Contato eron93@gmail.com 
 
 # Meus artigos sobre LoRa
