@@ -9,6 +9,8 @@
 
 # LoRaWAN Recife community
 
+[TTN Recife Community\(https://www.thethingsnetwork.org/community/recife/)
+
 soon.... em breve.....
 ![](./recife-lorawan.png)
 Contato eron93@gmail.com 
