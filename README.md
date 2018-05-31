@@ -9,7 +9,7 @@
 
 # LoRaWAN Recife community
 
-[TTN Recife Community\(https://www.thethingsnetwork.org/community/recife/)
+[TTN Recife Community](https://www.thethingsnetwork.org/community/recife/)
 
 ![](./ttn-recife.png)
 soon.... em breve.....
