@@ -1,8 +1,8 @@
 # Documentação endpoint LoRaWAN
 
-Contribuicao principal feita por [Thiago Campos](https://github.com/tcampos123)
+![alt tag](https://www.thethingsnetwork.org/docs/assets/images/architecture.png)
 
-Testes realizados por [Marcus Felipe](https://github.com/mfrr) e [Eronides Neto](github.com/eron93br)
+Testes realizados por [Marcus Felipe](https://github.com/mfrr), [Eronides Neto](github.com/eron93br) e [Thiago Campos](https://github.com/tcampos123).
 
 Editado para funcionar com parametros em rede brasileira
 
