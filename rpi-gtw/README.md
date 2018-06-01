@@ -11,10 +11,9 @@ Editado para funcionar com parametros em rede brasileira
 
 Funcionalidades básicas 
 --------
-- listen on configurable frequency and spreading factor
-- SF7 to SF12
-- status updates
-- can forward to two servers
+- Compatível com freqüências configuráveis (915MHz, 902MHz etc) e mudança do fator de espalhamento (spreadin factor)
+- Spreading factor (SF7 to SF12)
+- Status de update
 
 Não suportado
 --------
@@ -31,13 +30,13 @@ Conexões (Pinout)
 Tutorial Parte 1 - Configurando o Gateway no RPi
 -------------
 
-### Material  necessario:
+### Material  necessário:
 
 - Raspberry Pi 3 (ou 2 conectado a Internet)
 - Registro na TTN (The Things Network)
 - Transceiver LoRa Semtech SX1272 (HopeRF RFM92W), ou SX1276 (HopeRF RFM95W).
 
-A) Atualize o Raspberry Pi para a versao mais recente do S.O.
+A) Atualize o Raspberry Pi para a versão mais recente do S.O.
 ````
 sudo apt-get update
 
@@ -49,12 +48,12 @@ B) Instale a biblioteca SPI via a linha de comando do terminal
 ````
 sudo apt-get install wiringpi
 ````
-De preferencia, habilite o SPI, VNC, SSH por praticidade via comando 
+De preferência, habilite o SPI, VNC, SSH por praticidade via comando 
 ````raspi-config ````
 
-C) Realize as conexoes fisicas do transceiver LoRa com o Raspberry Pi como descritas acima!!
+C) Realize as conexoes físicas do transceiver LoRa com o Raspberry Pi como descritas acima!!
 
-Em seguida vamos comecar a configuracao do gateway, siga o passo a passo!
+Em seguida vamos comecar a configuração do gateway, siga o passo a passo!
 
 1) Abra o Terminal e Crie um diretório que ficará os arquivos e bibliotecas do LoRa! Em seguida entre na pasta criada. 
 ````
@@ -72,7 +71,7 @@ git clone https://github.com/tftelkamp/single_chan_pkt_fwd.git
 
 ![](./config.png)
 
-Editar as partes em vermelho para a configuracao desejada! 
+Editar as partes em vermelho para a configuração desejada! 
 - Por exemplo, coloque a frequencia para 914.9MHz (914900000), a informacao da localizacao do gateway a partir de sua localizacao exata ou aproximada (latitude e longitude) e altitude do setup do gateway. 
 - Coloque o nome do seu dispositivo (Single Channel Gateway)
 - No campo e-mail coloque o seu e-mail cadastrado na TTN.
