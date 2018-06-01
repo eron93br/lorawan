@@ -6,6 +6,12 @@ Testes realizados por [Marcus Felipe](https://github.com/mfrr), [Eronides Neto](
 
 Editado para funcionar com parametros em rede brasileira
 
+### Material  necessario:
+
+- Arduino UNO ou NodeMCU (ESP8266)
+- Registro na TTN (The Things Network)
+- Transceiver LoRa Semtech SX1272 (HopeRF RFM92W), ou SX1276 (HopeRF RFM95W).
+
 Funcionalidades
 --------
 - Mensagens de uplink
@@ -19,7 +25,18 @@ Nao suporta
 
 Connections (Pinout)
 ===========
-![](./pinout.png)
+| Semtech SX1276/77/78/79 | Arduino UNO |
+| :---------------------: | :------:|
+| VCC | 3.3V |
+| GND | GND |
+| SCK | SCK |
+| MISO | MISO |
+| MOSI | MOSI (13) |
+| NSS | 6 |
+| NRESET | 5 |
+| DIO0 | 2 |
+| DIO1 | 3 |
+| DIO2 | 4 |
 
 Tutorial Parte 1 - Configurando o endpoint na The Things Network
 -------------
@@ -60,19 +77,13 @@ Caso voce tenha achado confuso o passo a passo anterior, seguem os links para o 
 Tutorial Parte 2 - Configurando o firmware do endpoint 
 -------------
 
-### Material  necessario:
+1) Baixe e instale a sua IDE do Arduino a LMIC library modificada, [deste link](https://github.com/tcampos123/LoRa-Node-TTN-LoRaWAN-915).
 
-- Arduino UNO ou NodeMCU (ESP8266)
-- Registro na TTN (The Things Network)
-- Transceiver LoRa Semtech SX1272 (HopeRF RFM92W), ou SX1276 (HopeRF RFM95W).
+2) Utilize este [código](https://github.com/eron93br/lorawan/blob/master/rpi-gtw/endpoint/lorawan-node.ino) como base e exemplo, colocando seus valores de app session key, network session key e device address.
 
-A) Atualize o Raspberry Pi para a versao mais recente do S.O.
-````
-sudo apt-get update
+3) Edite se quiser alguns parâmetros, como o TX_INTERVAL (intervalo de transmissão) e mensagem a ser enviada...
 
-sudo apt-get upgrade
-````
-
+4) Programe o Arduino e seja feliz! Let's connect and make incrible things :) 
 
 License
 -------
