@@ -5,6 +5,7 @@
 # Tutoriais 
 
 - [Gateway LoRaWAN com Raspberry Pi](https://github.com/eron93br/lorawan/tree/master/rpi-gtw)
+- [Configurando o Arduino UNO como endpoint LoRaWAN\(https://github.com/eron93br/lorawan/tree/master/rpi-gtw/endpoint)
 
 # LoRaWAN Recife community
 
