@@ -15,10 +15,15 @@
 
 # Meus artigos sobre LoRa/LoRaWAN
 
-- [The Things Network: uma rede para IoT colaborativa](https://www.embarcados.com.br/the-things-network-rede-iot/)'
+- [The Things Network: uma rede para IoT colaborativa](https://www.embarcados.com.br/the-things-network-rede-iot/)
 - [Gateways LoRa: soluções open-source hardware](https://www.embarcados.com.br/gateways-lora-open-source-hardware/)
 - [Criando end-devices LoRa: arquitetura e especificações](https://www.embarcados.com.br/end-devices-lora-arquitetura/)
 - [Plataformas de desenvolvimento baseadas em LoRa](https://www.embarcados.com.br/plataformas-baseadas-em-lora/)
+
+# Hardware para desenvolver projetos com LoRa
+- [Transceiver LoRa]()
+- [Gateway LoRa]()
+- [Plataforma e dashboards]()
 
 # Referências LoRaWAN da comunidade maker
 
