@@ -19,7 +19,7 @@ Funcionalidades
 - Payload variavel
 - Intervalo de envio variavel
 
-Nao suporta
+Não suporta
 --------
 - Mensagens de downlink
 
