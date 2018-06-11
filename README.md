@@ -1,6 +1,6 @@
 # LoRaWAN Documentation
 
-![alt tag](https://github.com/eron93br/lorawan/blob/master/rpi-gtw/cobertura-lorawan-brasil.png)
+![alt tag](https://www.thethingsnetwork.org/docs/assets/images/architecture.png)
 
 # Tutoriais 
 
