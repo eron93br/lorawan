@@ -1,5 +1,7 @@
 # Documentação gateway LoRaWAN
 
+![alt tag](https://www.thethingsnetwork.org/docs/assets/images/architecture.png)
+
 Gateway LoRaWAN de unico canal baseado em Raspberry Pi
 
 Baseado na implementacao de [Thomas Telkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
