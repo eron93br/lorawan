@@ -1,5 +1,6 @@
 # TTN-Recife Documentation
 
+![alt tag](https://www.thethingsnetwork.org/logo/recife.svg)
 
 ..... under construction......
 
