@@ -1,13 +1,12 @@
 # Documentação gateway LoRaWAN com ESP32
+![alt tag](https://www.thethingsnetwork.org/docs/assets/images/architecture.png)
 
 Gateway LoRaWAN de unico canal baseado em ESP32
 
-Baseado na implementacao de [Thomas Telkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
-Contribuicao principal feita por [Thiago Campos](https://github.com/tcampos123)
+Baseado na implementação de [Thomas Telkamp](https://github.com/tftelkamp/single_chan_pkt_fwd)
+Contribuição principal feita por [Thiago Campos](https://github.com/tcampos123)
 
-Testes realizados por [Marcus Felipe](https://github.com/mfrr) e [Eronides Neto](github.com/eron93br)
-
-Editado para funcionar com parametros em rede brasileira
+Testes realizados por [Eronides Neto](github.com/eron93br). Editado para funcionar com parametros em rede brasileira
 
 Funcionalidades básicas 
 --------
@@ -17,10 +16,7 @@ Funcionalidades básicas
 
 Não suportado
 --------
-- ACK de mensagem
-- Modulação SF7BW250 
-- Modulação FSK
-- Mensagens de downlink (downstream)
+- TODO
 
 Conexões (Pinout)
 ===========
@@ -58,8 +54,7 @@ Tutorial Parte 2 - Configurando o Gateway na The Things Network
 
 ![alt tag](https://hackster.imgix.net/uploads/attachments/251147/screen_shot_2017-01-14_at_4_pQP29ElNqh.png?auto=compress%2Cformat&w=680&h=510&fit=max)
 
-3) Rode o gateway e bote pra quebrar! :)
-````sudo /home/pi/single_chan_pkt_fwd/single_chan_pkt_fwd````
+3) .... TO DO.....
 
 Tutorial Parte 2 - Configurando no ESP32
 -------------
@@ -83,7 +78,6 @@ Alem do firmware acima mecionado voce precisara de duas bibliotecas adicionais p
 Apos realizar as alteracoes e instalar os pacotes, basta verificar a conexao de pinOut e programar o ESP32 via Arduino IDE para testar o gateway!
 
 **Realize o teste com endpoint!** Confira o tutorial para criar um endpoint [aqui](https://github.com/eron93br/lorawan/tree/master/rpi-gtw/endpoint).
-
 
 Assim que seu gateway estiver ativado apacera um status na sua pagina, console.thethingsnetwork.org
 
