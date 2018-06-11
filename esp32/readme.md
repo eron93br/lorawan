@@ -66,7 +66,7 @@ Tutorial Parte 2 - Configurando no ESP32
 
 1) Realize as conexoes fisicas como descrita na tabela acima (pinout)! 
 
-Para o firmware do ESP32 para gateway LoRaWAN vamos utilizar a [implementacao](https://github.com/kersing/ESP-1ch-Gateway-v5.0) do Jac Kersing, alterada por [Thiago Campos](https://github.com/tcampos123/LoRa-Gateway-with-ESP32), cujo link pode ser acessado [aqui](https://github.com/tcampos123/LoRa-Gateway-with-ESP32).
+Para o firmware do ESP32 para gateway LoRaWAN vamos utilizar a [implementação](https://github.com/kersing/ESP-1ch-Gateway-v5.0) do Jac Kersing, alterada por [Thiago Campos](https://github.com/tcampos123/LoRa-Gateway-with-ESP32), cujo link pode ser acessado [aqui](https://github.com/tcampos123/LoRa-Gateway-with-ESP32).
 
 Alem do firmware acima mecionado voce precisara de duas bibliotecas adicionais para o seu ESP32. A biblioteca [SPIFFS](https://github.com/espressif/arduino-esp32/tree/master/libraries/SPIFFS) e [U8G2](https://github.com/nkolban/esp32-snippets/tree/master/hardware/displays/U8G2). Os proximos passos serao referentes a configuracao do gateway com os parametros da TTN!
 
@@ -78,7 +78,7 @@ Alem do firmware acima mecionado voce precisara de duas bibliotecas adicionais p
 
 5) **(OPICIONAL)**: No arquivo **loraModem.h** (linha 31) altere as frequencias de operacao do gateway, SE DESEJADO. O default do arquivo editado ira funcionar no padrao 914.9MHz. 
 
-6) **Configuracao do Spreading Factor (SF)**: altere na linha 51 do arquivo **ESP-sc-gway.h**. 
+6) **Configuração do Spreading Factor (SF)**: altere na linha 51 do arquivo **ESP-sc-gway.h**. 
 
 Apos realizar as alteracoes e instalar os pacotes, basta verificar a conexao de pinOut e programar o ESP32 via Arduino IDE para testar o gateway!
 
@@ -94,7 +94,4 @@ Outros tutoriais
 
 License
 -------
-The source files in this repository are made available under the Eclipse Public License v1.0, except:
-
-base64 implementation, that has been copied from the Semtech Packet Forwarder;
-RapidJSON, licensed under the MIT License.
+The source files of the gateway sketch developed by Jac Kersing in this repository is made available under the MIT license. The libraries included in this repository are included for convenience only and all have their own license, and are not part of the ESP 1ch gateway code.
