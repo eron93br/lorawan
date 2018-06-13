@@ -66,9 +66,12 @@ Para o firmware do ESP32 para gateway LoRaWAN vamos utilizar a [implementação]
 
 Alem do firmware acima mecionado voce precisara de algumas bibliotecas adicionais para o seu ESP32.
 - A biblioteca [SPIFFS](https://github.com/espressif/arduino-esp32/tree/master/libraries/SPIFFS) 
+- Biblioteca [ESP8266 Wifi](https://github.com/esp8266/Arduino)
 - Biblioteca [U8G2](https://github.com/nkolban/esp32-snippets/tree/master/hardware/displays/U8G2).
 - Biblioteca [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 - Biblioteca [Time](https://github.com/PaulStoffregen/Time)
+- Biblioteca [Gbase64](https://github.com/adamvr/arduino-base64)
+- [Bibliotecas relacionadas ao ESP](https://github.com/esp8266/Arduino/tree/master/libraries)
 
 Os proximos passos serao referentes a configuracao do gateway com os parametros da TTN!
 
