@@ -39,6 +39,7 @@ Tutorial Parte 1 - Configurando o Gateway na TTN
 - ESP32 (conectado a Internet)
 - Registro na TTN (The Things Network)
 - Transceiver LoRa Semtech SX1272 (HopeRF RFM92W), ou SX1276 (HopeRF RFM95W).
+- Instalação de algumas bibliotecas
 
 Tutorial Parte 2 - Configurando o Gateway na The Things Network
 -------------
@@ -63,7 +64,13 @@ Tutorial Parte 2 - Configurando no ESP32
 
 Para o firmware do ESP32 para gateway LoRaWAN vamos utilizar a [implementação](https://github.com/kersing/ESP-1ch-Gateway-v5.0) do Jac Kersing, alterada por [Thiago Campos](https://github.com/tcampos123/LoRa-Gateway-with-ESP32), cujo link pode ser acessado [aqui](https://github.com/tcampos123/LoRa-Gateway-with-ESP32).
 
-Alem do firmware acima mecionado voce precisara de duas bibliotecas adicionais para o seu ESP32. A biblioteca [SPIFFS](https://github.com/espressif/arduino-esp32/tree/master/libraries/SPIFFS) e [U8G2](https://github.com/nkolban/esp32-snippets/tree/master/hardware/displays/U8G2). Os proximos passos serao referentes a configuracao do gateway com os parametros da TTN!
+Alem do firmware acima mecionado voce precisara de algumas bibliotecas adicionais para o seu ESP32.
+- A biblioteca [SPIFFS](https://github.com/espressif/arduino-esp32/tree/master/libraries/SPIFFS) 
+- Biblioteca [U8G2](https://github.com/nkolban/esp32-snippets/tree/master/hardware/displays/U8G2).
+- Biblioteca [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+- Biblioteca [Time](https://github.com/PaulStoffregen/Time)
+
+Os proximos passos serao referentes a configuracao do gateway com os parametros da TTN!
 
 2) No arquivo **ESP-sc-gway.h** altere na linha **181** o router para  ````thethings.meshed.com.au````
 
