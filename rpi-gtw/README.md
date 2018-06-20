@@ -78,13 +78,14 @@ Editar as partes em vermelho para a configuração desejada!
 - Coloque o nome do seu dispositivo (Single Channel Gateway)
 - No campo e-mail coloque o seu e-mail cadastrado na TTN.
 - Nome do seu gateway...
-- Em Server1 o seu IP 
+- Em SERVER1 coloque **52.62.83.250** 
 
-Confira o exemplo do meu [arquivo](https://github.com/eron93br/lorawan/blob/master/rpi-gtw/main.cpp)
+**Verifique o exemplo do meu [arquivo](https://github.com/eron93br/lorawan/blob/master/rpi-gtw/main.cpp)**
 
 Feita as alterações, salve ````CTRL+X -> Y (Yes) -> Enter````
 
 5) Ainda no Subdiretório, compile o código com terminal e em seguida reinicie o Raspberry Pi. 
+**Obs: caso vc esteja usando um Raspberry Pi zero, altere no arquivo main.cpp (linha 559) "eth0" por "wlan0"**. 
 ````
 make
 sudo reboot
