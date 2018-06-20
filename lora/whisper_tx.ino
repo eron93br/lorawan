@@ -1,10 +1,8 @@
-// LoRa 9x_TX
-// -*- mode: C++ -*-
-// Example sketch showing how to create a simple messaging client (transmitter)
+// Eronides Neto - LoRa radio examples
+// Example sketch showing how to create a simple messaging radio communication with LoRa modules
 // with the RH_RF95 class. RH_RF95 class does not provide for addressing or
 // reliability, so you should only use RH_RF95 if you do not need the higher
-// level messaging abilities.
-// It is designed to work with the other example LoRa9x_RX
+// It is designed to work with LoRa Whisper board wisen.com.au/store/products/whisper-node-lora/
  
 #include <SPI.h>
 #include <RH_RF95.h>
