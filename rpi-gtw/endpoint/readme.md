@@ -11,6 +11,7 @@ Editado para funcionar com parametros em rede brasileira
 - Arduino UNO ou NodeMCU (ESP8266)
 - Registro na TTN (The Things Network)
 - Transceiver LoRa Semtech SX1272 (HopeRF RFM92W), ou SX1276 (HopeRF RFM95W).
+- Biblioteca padrão [AU915](https://github.com/tpet93/lmic-Arduino-Australia) ou biblioteca Padrão [US915](https://github.com/tcampos123/LoRa-Node-TTN-LoRaWAN-915)
 
 Funcionalidades
 --------
